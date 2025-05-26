@@ -1,23 +1,20 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
 
-const parentDIV = React.createElement(
-    "div", {id:"parent"},[
-        React.createElement("div", 
-            {id:"child1"},
-            React.createElement("h1", {}, "Heading1"),
-            React.createElement("h2", {}, "Heading2")
-        ),
-        React.createElement(
-            "div",
-            {id:"child2"},
-            React.createElement("h1", {}, "Heading2"),
-            React.createElement("h2", {}, "Heading2")
-        ),
+// React Element (DOM element) => object => HTML
 
-    ]
+const heading = React.createElement("h1", {id:"heading1"}, "Im here") // React element not html element, creates an object
+console.log(heading);
 
-)
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parentDIV)
+//jsx
+const jsxHeading = <h1 id="heading1">Hello World</h1>; // this is not html inside js, this is jsx // creating react element using jsx
+console.log(jsxHeading);
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+
+// root.render(heading)
+root.render(jsxHeading)
+
+
+
