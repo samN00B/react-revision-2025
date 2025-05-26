@@ -1,0 +1,32 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "this is namaste react tuitorial",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samN00B/react-revision-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samN00B/react-revision-2025/issues"
+  },
+  "homepage": "https://github.com/samN00B/react-revision-2025#readme",
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
+
