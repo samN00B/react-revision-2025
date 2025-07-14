@@ -19,3 +19,20 @@
     - HTTPs - support
     - Tree Shaking - remove unused code for us
     - Different build for dev and prod (bundles)
+
+# Eat Me food app
+    /** App Planning
+    * Header
+    *  - Logo component
+    *  - Nav Items(links-Home, about, cart, signIn, signUp)
+    * Body
+    *  - Search
+    *  - Card container
+    *      - Lots of card(Restaurants Card)
+    *          - img, name, start rating, cuisine, deliver time
+    * Footer
+    *  - Copyright
+    *  - Links
+    *  - Address
+    *  - Cntact
+    */
